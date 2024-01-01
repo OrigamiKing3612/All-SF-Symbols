@@ -1,5 +1,5 @@
 import XCTest
-@testable import SF_Symbols
+@testable import All_SF_Symbols
 
 final class SF_SymbolsTests: XCTestCase {
     func testExample() throws {
