@@ -4,20 +4,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "SF Symbols",
+    name: "All_SF_Symbols",
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "SF Symbols",
-            targets: ["SF Symbols"]),
+            name: "All_SF_Symbols",
+            targets: ["All_SF_Symbols"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "SF Symbols"),
+            name: "All_SF_Symbols"),
         .testTarget(
-            name: "SF SymbolsTests",
-            dependencies: ["SF Symbols"]),
+            name: "All_SF_SymbolsTests",
+            dependencies: ["All_SF_Symbols"]),
     ]
 )
